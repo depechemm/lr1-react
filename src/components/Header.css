@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(144, 2, 6, 1);
+    height: 70px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.search-input {
+    margin: 0 10px;
+    width: 40%;
+    border-radius: 7px;
+    height: 25px;
+    padding-left: 10px;
+    font-weight: bold;
+    border-style: none;
+    outline: none;
+}
