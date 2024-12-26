@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Slider from './components/Slider';
 import ProductList from './components/ProductList';
-import FilterMenu from './components/FilterMenu'; // Импортируем FilterMenu
+import FilterMenu from './components/FilterMenu';
 import './App.css';
 
 const App = () => {
@@ -14,7 +14,6 @@ const App = () => {
   const [filterText, setFilterText] = useState('');
   const [filteredProducts, setFilteredProducts] = useState(products);
 
-  // Эффект для обновления отфильтрованных продуктов при изменении filterText или products
   useEffect(() => {
     setFilteredProducts(
       products.filter(product =>

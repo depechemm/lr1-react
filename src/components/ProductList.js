@@ -14,7 +14,7 @@ const ProductList = () => {
   ]);
 
   const [sortBy, setSortBy] = useState('name-asc');
-  const [warning, setWarning] = useState(''); // Добавляем состояние для предупреждения
+  const [warning, setWarning] = useState(''); 
 
   const sortedProducts = [...products].sort((a, b) => {
     switch (sortBy) {
